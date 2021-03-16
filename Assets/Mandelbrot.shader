@@ -82,7 +82,7 @@
                 iter -= fracIter;
 
                 float m = sqrt(iter / _MaxIter);
-                float4 col = sin(_Color*m*40*(_SinTime.y+2))*.5+.5;
+                float4 col = sin(_Color*m*10*(_SinTime.y+2))*.5+.5;
                 return col;
             }
             ENDCG
